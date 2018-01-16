@@ -1,0 +1,52 @@
+table .year {
+  font-weight: bold;
+  font-size: 26px;
+  border: 0;
+  background: white;
+}
+body {
+  font-family: "Open Sans", arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+  padding: 30px;
+  padding-top: 0px;
+}
+pre.highlight {
+  font-size: 14px;
+}
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-bottom: 1px solid rgba(0,0,0,0.08);
+/*     background-color: #eee; */
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    color: #222;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-bottom: transparent 2px #52a1d2;
+}
+
+.navbar .active a {
+    border-bottom: solid 2px #52a1d2;
+}
+
+/* Change the link color to #111 (black) on hover */
+.navbar li a:hover {
+    border-bottom: solid 2px #52a1d2;
+}
